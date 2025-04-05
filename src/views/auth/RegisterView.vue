@@ -1,6 +1,6 @@
 <template>
-    <AuthLayout title="Register to Flick Nest">
-        <form class="flex flex-col gap-4 justify-center items-center w-full max-w-lg">
+    <AuthLayout title="Register">
+        <form class="flex flex-col gap-4 justify-center items-center w-full">
             <div class="w-full flex justify-between gap-4">
                 <FloatLabel variant="on">
                     <InputText id="firstNameInput" />

@@ -24,6 +24,11 @@ const router = createRouter({
             ],
         },
         {
+            path: '/dashboard',
+            name: 'dashboard',
+            component: () => import('@/views/dashboard/HomeView.vue'),
+        },
+        {
             path: '/',
             redirect: '/auth/login',
         },
