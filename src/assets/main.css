@@ -1,5 +1,7 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
-.p-floatlabel, .p-inputtext, .p-password {
+.p-floatlabel,
+.p-inputtext,
+.p-password {
     width: 100% !important;
 }

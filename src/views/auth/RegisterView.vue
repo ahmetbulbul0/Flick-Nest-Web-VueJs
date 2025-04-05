@@ -61,8 +61,8 @@
 <script setup>
 import InputText from 'primevue/inputtext'
 import AuthLayout from '@/layouts/AuthLayout.vue'
-import FloatLabel from 'primevue/FloatLabel'
-import Password from 'primevue/Password'
-import Checkbox from 'primevue/Checkbox'
-import Button from 'primevue/Button'
+import FloatLabel from 'primevue/floatlabel'
+import Password from 'primevue/password'
+import Checkbox from 'primevue/checkbox'
+import Button from 'primevue/button'
 </script>
