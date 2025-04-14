@@ -21,11 +21,14 @@
 
         <Panel header="Header">
             <p class="m-0">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
             </p>
         </Panel>
-
     </DashboardLayout>
 </template>
 
@@ -39,41 +42,64 @@ import { ref } from 'vue'
 const items = ref([
     {
         label: 'Dashboard',
-        icon: 'pi pi-warehouse',
+        icon: 'pi pi-home',
     },
     {
         label: 'Genres',
-        icon: 'pi pi-question',
+        icon: 'pi pi-tags',
+        items: [
+            {
+                label: 'Movie Genres',
+                icon: 'pi pi-video',
+            },
+            {
+                label: 'Serie Genres',
+                icon: 'pi pi-desktop',
+            },
+        ],
     },
     {
         label: 'Persons',
-        icon: 'pi pi-question',
+        icon: 'pi pi-users',
+        items: [
+            {
+                label: 'Actors',
+                icon: 'pi pi-user',
+            },
+            {
+                label: 'Directors',
+                icon: 'pi pi-user-edit',
+            },
+            {
+                label: 'Producers',
+                icon: 'pi pi-briefcase',
+            },
+        ],
     },
     {
         label: 'Users',
-        icon: 'pi pi-question',
+        icon: 'pi pi-user',
     },
     {
         label: 'Platforms',
-        icon: 'pi pi-question',
+        icon: 'pi pi-globe',
     },
     {
         label: 'Movies',
-        icon: 'pi pi-question',
+        icon: 'pi pi-video',
     },
     {
         label: 'Series',
-        icon: 'pi pi-question',
+        icon: 'pi pi-desktop',
     },
     {
         label: 'Settings',
-        icon: 'pi pi-question',
+        icon: 'pi pi-cog',
     },
 ])
 </script>
 
 <style>
-
 .p-menubar {
     padding: 0.75rem 0.75rem !important;
     justify-content: space-between !important;
@@ -82,5 +108,4 @@ const items = ref([
 .p-menubar-end {
     margin: 1px !important;
 }
-
 </style>
